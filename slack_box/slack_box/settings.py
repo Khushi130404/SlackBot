@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'events',
 ]
 
 MIDDLEWARE = [
@@ -121,3 +123,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# SLACK API Configurations
+# ----------------------------------------------
+# use your keys
+SLACK_CLIENT_ID = '8141160797959.8168400972737'
+SLACK_CLIENT_SECRET = 'b90f1253d3a7d0c1edad300126ff5804'
+SLACK_VERIFICATION_TOKEN = 'qnbfyHKX5QGLGTp2EXIBDtxz'
+SLACK_BOT_USER_TOKEN = 'xoxb-8141160797959-8149163331766-XuQREjKhGfdnmm9iRkrbuvFk'
