@@ -124,9 +124,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# SLACK API Configurations
-# ----------------------------------------------
-# use your keys
 SLACK_CLIENT_ID = '8141160797959.8168400972737'
 SLACK_CLIENT_SECRET = 'b90f1253d3a7d0c1edad300126ff5804'
 SLACK_VERIFICATION_TOKEN = 'qnbfyHKX5QGLGTp2EXIBDtxz'
