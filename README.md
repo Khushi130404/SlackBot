@@ -22,7 +22,16 @@ SlackBot is a Django-based bot that integrates with Slack using the Slack Events
 ## Setting Up Slack App
 
 - Create a new Slack app from Slack API.
-- Enable the Events API and set the request URL to your server (https://yourdomain.com/slack/events/).
+- Enable the Events API and set the request URL to your server.
 - Subscribe to events like message.channels or message.im.
 - Add the OAuth & Permissions scope chat:write and channels:history.
 - Install the app to your workspace and copy the bot token.
+
+## Usage
+
+- Mention the bot in a Slack channel to trigger a response.
+
+- Send direct messages to the bot for interactions.
+
+- Extend the bot’s functionality by adding custom event handlers in Django.
+
