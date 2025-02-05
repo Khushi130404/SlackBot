@@ -9,3 +9,12 @@ SlackBot is a Django-based bot that integrates with Slack using the Slack Events
 - Supports event-driven interactions using the Slack Events API.
 - Easily extendable for additional functionality.
 
+## Prerequisites
+
+- Python 3.x
+
+- Django
+
+- A Slack workspace
+
+- A Slack app with Events API enabled
